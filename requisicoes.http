@@ -1,0 +1,26 @@
+POST http://127.0.0.1:5000/soma
+Content-Type: application/json
+
+{
+    "numero1": 3,
+    "numero2": 4
+}
+
+###
+
+GET http://127.0.0.1:5000/calculos
+Content-Type: application/json
+
+###
+
+PUT http://127.0.0.1:5000/editar/854e85b7-a7ad-4111-b7f4-42fc3769f32a
+Content-Type: application/json
+
+{
+    "numero1": 5,
+    "numero2": 6
+}
+
+###
+
+DELETE http://127.0.0.1:5000/deletar/854e85b7-a7ad-4111-b7f4-42fc3769f32a
